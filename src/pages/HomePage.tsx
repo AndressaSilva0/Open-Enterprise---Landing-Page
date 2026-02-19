@@ -11,6 +11,9 @@ import DescriptionSection from "../components/ui/DescriptionSection";
 import CardStyled from "../components/ui/Card";
 import FeatureInfo from "../components/ui/FeatureInfo";
 import FeatureGraphic from "../components/ui/FeatureGraphic";
+import Icon from "../assets/Icon.png";
+import Icon2 from "../assets/Icon2.png";
+import Icon3 from "../assets/Icon3.png";
 import ProposalWidget from "../components/ui/ProposalWidget";
 import FeatureOnboardUser from "../components/ui/FeatureOnboardUser";
 import FeatureEngageContributors from "../components/ui/FeatureEngageContributors";
@@ -248,17 +251,17 @@ function HomePage() {
           <CardsContainer>
             {/* ... Cards ... */}
             <CardStyled
-              icon="src/assets/Icon.png"
+              icon={Icon}
               title="Modern workforce"
               text="Multistakeholder governance aligns employees with the organization’s wider community."
             />
             <CardStyled
-              icon="src/assets/Icon2.png"
+              icon={Icon2}
               title="Meritocratic by design"
               text="Tokenized ownership aligns deeply committed individuals with the organization’s success."
             />
             <CardStyled
-              icon="src/assets/Icon3.png"
+              icon={Icon3}
               title="Engineered for resilience"
               text="Open Enterprise supports best practices in sociocratic management."
             />
